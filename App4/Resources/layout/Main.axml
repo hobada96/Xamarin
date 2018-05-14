@@ -7,9 +7,21 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Enter a Phoneword" />
+        android:text="Enter a Phoneword"
+        android:id="@+id/textView1" />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editText1" />
+        android:id="@+id/PhoneNumberText"
+        android:text="1-800-XAMARIN"
+        android:accessibilityLiveRegion="z" />
+    <Button
+        android:text="Translate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TranslateButton" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TranslatedPhoneWord" />
 </LinearLayout>

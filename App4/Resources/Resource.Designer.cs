@@ -44,8 +44,17 @@ namespace App4
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f040001
+			public const int PhoneNumberTest = 2130968577;
+			
+			// aapt resource value: 0x7f040002
+			public const int TranslateButton = 2130968578;
+			
+			// aapt resource value: 0x7f040003
+			public const int TranslatedPhoneWord = 2130968579;
+			
 			// aapt resource value: 0x7f040000
-			public const int PhoneNumberText = 2130968576;
+			public const int textView1 = 2130968576;
 			
 			static Id()
 			{
@@ -55,7 +64,9 @@ namespace App4
 			private Id()
 			{
 			}
-		}
+
+            public static int PhoneNumberText { get; internal set; }
+        }
 		
 		public partial class Layout
 		{
